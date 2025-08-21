@@ -1,0 +1,31 @@
+AI Based Trip Planner Project:
+
+A - Setup:
+	1 - Install UV in command prompt sing pip install uv
+	2 - Initiate the project:
+		- uv init AI_Trip_Planner (In the desired location)
+		- code .
+		- create requirements.txt to keep track of what you are installing in this project
+		- create setup.py file to install all the local dependencies in this virtual environment.
+		- open terminal > command Prompt
+		- in case there is any conda env active, deactivate it by writing conda deactivate.
+		- Create virtual environment with the desired python version.
+		- Inroder to check which python version exists in your system you can write uv python list. This will show all the version available in your system and also the ones not available as well.
+		- you can directly install the desried version shown in this list which is not available in this system using uv python install <python version>
+		- Once you have the desired version, you can create the virtual environment using uv venv <env name> --python <python version>
+		- To activate it, just copy paste the path of the environment
+	3 - Install packages using uv pip install <package name>
+	Note - Always add the env name in the .gitignore file to ignore it when uploading the project to github repository.
+	4 - Create folders for the project such as agent, config, prompt_library, tools
+	5 - In each folder create specific files; agent > agentic_workflow.py, config > config.yaml, prompt_library > prompt.py
+	6 - Create .env file to store all the environment variables and also create .env.name to state the names of varibales which we are keeping in .env. This file is just for reference.
+	7 - Create __init__.py in all the folders you have created.
+	8 - create another folder called notebook and create a file inside called experiments.ipynb. This is just to test out your code first before development.
+	9 - Create files in tools folder such as arithmatic_op_tool.py, currency_conversion_tool.py, calculator_tool.py, place_search_tool.py, weather_info_tool.py
+	10 - Create environment variables in the .env files and copy the keys respectively
+	11 - Create .py files in utils folder which correspond to tools folder. basically all the operational codes will be written and taken from utils and used in the tools folder files.
+	12 - Add .env file to .gitignore. This holds all the keys to your apps. Do not share in github repository.
+	13 - For reference what keys are used add only the key names to .env.name which can be moved to github.
+	
+B - Development:
+	1 - 
