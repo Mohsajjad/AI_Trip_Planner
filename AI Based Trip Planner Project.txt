@@ -26,7 +26,8 @@ A - Setup:
 	11 - Create .py files in utils folder which correspond to tools folder. basically all the operational codes will be written and taken from utils and used in the tools folder files.
 	12 - Add .env file to .gitignore. This holds all the keys to your apps. Do not share in github repository.
 	13 - For reference what keys are used add only the key names to .env.name which can be moved to github.
-	14 - Create a folder called logger and logging.py inside it.
+	14 - Create a folder called logger and logging.py and init.py inside it.
+	15 - Create a folder called exception and exceptionhandling.py and init.py inside it.
 	15 - Push the entire project to github.
 
 B - Development:
